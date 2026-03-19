@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 public class ProvaController {
 
-    @GetMapping("/calcular")
+    @GetMapping("/validarNumero")
     public ResponseEntity<ResponseDTOS> validarNumero(@RequestParam double numero){
 
         ResponseDTOS restoDivisao = new ResponseDTOS();
